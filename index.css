@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.courasel{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    top: 0px;
+    overflow: hidden;
+
+}
+
+.courasel-slide{
+    display: flex;
+    width: 100%;
+}
+
+img{
+    position: absolute;
+    top: 50%;
+}
+
+.container{
+    margin: 0;
+    top: 0;
+}
+
+#banner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/batmobile-tumbler-huracan-render-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    position: absolute;
+    right: 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 1px solid grey;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    border-color: blanchedalmond;
+}
