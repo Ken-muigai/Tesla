@@ -124,9 +124,33 @@ h1{
     line-height: 20px;
     letter-spacing: 0.09em;
 }
+.pros{
+    width: 349px;
+    height: 116x;
+    margin-left: 78px;
+    margin-top: 80px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
 
-
-
+}
+.cons{
+    width: 432px;
+    height: 116px;
+    margin-left: 490px;
+    margin-top: -160px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    height: 40px;
+    margin-left: 78px;
+    margin-top: 60px;
+    
+}
 
 
 
