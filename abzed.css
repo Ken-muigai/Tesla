@@ -1,0 +1,185 @@
+body{
+    background-color: #F4EBEB;
+}
+h1{
+    width: 180px;
+    height: 54px;
+    margin-left: 21px;
+    margin-top: 26px;
+    font-size: 24px;
+    font-family: "Risque";
+    background: linear-gradient(to bottom, #FF6109 40.63%, #1143F2 0%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    fill:black;
+
+}
+.navbar,nav,ul{
+    width: 100%;
+    height: auto;
+    margin-left: opx;
+    margin-top:;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    border: 1px blue;
+    background-color: #B7D4F8;
+    
+}
+.top{
+    background-image: url("Tesla/image/frontelect.jpg");
+    background-size: 757px 404px;
+    width: 381px;
+    height: 266px;
+    margin-left: 78px;
+    margin-top:20px ;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+}
+.top>h2{
+    width: 139px;
+    height: 21px;
+    margin-left:;
+    margin-top: ;
+    font-size: 18px;
+    font-family: "Risque";
+    color: #ED5819;
+}
+#up{
+    width: 280px;
+    height: 42px;
+    margin-left: 78px;
+    margin-top: 173px;
+    font-size: 14px;
+    text-align: center;
+}
+.middle>p{
+    width: 272px;
+    height: 433px;
+    margin-left: 78px;
+    margin-top: -400px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+}
+.middle>img{
+    width: 472px;
+    height: 452px;
+    margin-left: 389px;
+    margin-top: -40px;
+}
+.middler>img{
+    width: 399px;
+    height: 235px;
+    margin-left: 78px;
+}
+.middler>p{
+    width: 366px;
+    height: 291px;
+    margin-left: 490px;
+    margin-top: -230px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+}
+#specs{
+    width: 348px;
+    height: 18px;
+    margin-left: 78px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+
+}
+.below>p{
+    width: 752px;
+    height: 40px;
+    margin-left: 78px;
+
+}
+.below>img{
+    width: 399px;
+    height: 279px;
+    margin-left: 78px;
+}
+#down{
+    width: 373px;
+    height: 32px;
+    margin-left: 78px;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+.low>img{
+    width: 376px;
+    height: 255px;
+    margin-left: 78px;
+}
+.low>p{
+    width: 456px;
+    height: 204px;
+    margin-left: 471px;
+    margin-top: -250px;
+    line-height: 20px;
+    letter-spacing: 0.09em;
+}
+.pros{
+    width: 349px;
+    height: 116x;
+    margin-left: 78px;
+    margin-top: 80px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+
+}
+.cons{
+    width: 432px;
+    height: 116px;
+    margin-left: 490px;
+    margin-top: -160px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 430px;
+    height: 40px;
+    margin-left: 78px;
+    margin-top: 60px;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    height: 40px;
+    margin-left: 105px;
+    margin-top: -45px;
+}
+.endnote{
+    display: flex;
+    margin-left: 459px;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
