@@ -103,9 +103,27 @@ h1{
     height: 279px;
     margin-left: 78px;
 }
+#down{
+    width: 373px;
+    height: 32px;
+    margin-left: 78px;
+    font-size: 16px;
+    text-decoration: underline;
 
-
-
+}
+.low>img{
+    width: 376px;
+    height: 255px;
+    margin-left: 78px;
+}
+.low>p{
+    width: 456px;
+    height: 204px;
+    margin-left: 471px;
+    margin-top: -250px;
+    line-height: 20px;
+    letter-spacing: 0.09em;
+}
 
 
 
