@@ -14,11 +14,11 @@ h1{
     fill:black;
 
 }
-.navbar,nav,ul{
+.navbar,nav,ul,li{
     width: 100%;
     height: auto;
     margin-left: opx;
-    margin-top:;
+    /* margin-top:; */
     display: flex;
     justify-content: space-between;
     font-size: 16px;
@@ -26,22 +26,25 @@ h1{
     background-color: #B7D4F8;
     
 }
+.navbar,nav,ul,li,a:hover{
+    color: goldenrod;
+}
 .top{
-    background-image: url("Tesla/image/frontelect.jpg");
-    background-size: 757px 404px;
+    
     width: 381px;
     height: 266px;
-    margin-left: 78px;
+    margin-left: 108px;
     margin-top:20px ;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.04em;
 }
 .top>h2{
+    position: relative;
     width: 139px;
     height: 21px;
-    margin-left:;
-    margin-top: ;
+    margin-left:px;
+    margin-top: 0px; 
     font-size: 18px;
     font-family: "Risque";
     color: #ED5819;
