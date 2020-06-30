@@ -51,11 +51,58 @@ h1{
     height: 42px;
     margin-left: 78px;
     margin-top: 173px;
+    font-size: 14px;
+    text-align: center;
 }
+.middle>p{
+    width: 272px;
+    height: 433px;
+    margin-left: 78px;
+    margin-top: -400px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+}
+.middle>img{
+    width: 472px;
+    height: 452px;
+    margin-left: 389px;
+    margin-top: -40px;
+}
+.middler>img{
+    width: 399px;
+    height: 235px;
+    margin-left: 78px;
+}
+.middler>p{
+    width: 366px;
+    height: 291px;
+    margin-left: 490px;
+    margin-top: -230px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+}
+#specs{
+    width: 348px;
+    height: 18px;
+    margin-left: 78px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
 
+}
+.below>p{
+    width: 752px;
+    height: 40px;
+    margin-left: 78px;
 
-
-
+}
+.below>img{
+    width: 399px;
+    height: 279px;
+    margin-left: 78px;
+}
 
 
 
