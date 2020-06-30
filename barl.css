@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+  }
+  body {
+    position: relative;
+    background-color: #000000;
+    overflow-x: hidden;
+  }
+  #banner h3 {
+    position: absolute;
+    width: 190px;
+    height: 39px;
+    left: 18px;
+    top: 10px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+  
+    color: rgba(255, 142, 10, 0.94);
+  }
+  #banner h4 {
+    position: absolute;
+    width: 220px;
+    height: 33px;
+    left: 18px;
+    top: 49px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+  
+    color: rgba(126, 60, 13, 0.88);
+  }
