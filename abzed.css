@@ -1,12 +1,15 @@
 body{
     background-color: #F4EBEB;
 }
+a{
+    text-decoration: none;
+}
 h1{
-    width: 180px;
-    height: 54px;
+    width: 480px;
+    height: 44px;
     margin-left: 21px;
     margin-top: 26px;
-    font-size: 24px;
+    font-size: px;
     font-family: "Risque";
     background: linear-gradient(to bottom, #FF6109 40.63%, #1143F2 0%);
 	-webkit-background-clip: text;
@@ -24,45 +27,46 @@ h1{
     font-size: 16px;
     border: 1px blue;
     background-color: #B7D4F8;
-    
+
 }
+
 .navbar,nav,ul,li,a:hover{
     color: goldenrod;
 }
-.top{
+.top>p{
     
     width: 381px;
-    height: 266px;
+    height: 176px;
     margin-left: 108px;
-    margin-top:20px ;
+    margin-top:0px ;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.04em;
+    line-height: 20px;
+    letter-spacing: 0.11em;
 }
 .top>h2{
-    position: relative;
-    width: 139px;
-    height: 21px;
-    margin-left:px;
+    width: 169px;
+    height: 25px;
+    margin-left:78px;
     margin-top: 0px; 
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Risque";
     color: #ED5819;
 }
+
 #up{
     width: 280px;
     height: 42px;
     margin-left: 78px;
-    margin-top: 173px;
-    font-size: 14px;
+    margin-top: 53px;
+    font-size: 16px;
     text-align: center;
 }
 .middle>p{
     width: 272px;
     height: 433px;
     margin-left: 78px;
-    margin-top: -400px;
-    font-size: 13px;
+    margin-top: -440px;
+    font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.04em;
 }
@@ -70,7 +74,7 @@ h1{
     width: 472px;
     height: 452px;
     margin-left: 389px;
-    margin-top: -40px;
+    margin-top: -10px;
 }
 .middler>img{
     width: 399px;
@@ -90,6 +94,7 @@ h1{
     width: 348px;
     height: 18px;
     margin-left: 78px;
+    margin-top: -50px;
     font-size: 16px;
     letter-spacing: 0.04em;
     text-decoration: underline;
@@ -136,6 +141,9 @@ h1{
     letter-spacing: 0.04em;
 
 }
+#first{
+    color: black;
+}
 .cons{
     width: 432px;
     height: 116px;
@@ -143,6 +151,9 @@ h1{
     margin-top: -160px;
     line-height: 19px;
     letter-spacing: 0.04em;
+}
+#second{
+    color: black;
 }
 .social{
     display: flex;
@@ -161,6 +172,10 @@ h1{
     height: 40px;
     margin-left: 105px;
     margin-top: -45px;
+
+}
+.tags>a{
+    text-decoration: none;
 }
 .endnote{
     display: flex;
