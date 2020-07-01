@@ -1,10 +1,11 @@
-* {
+*{
     margin: 0;
+    color:black;
   }
   body {
     font: "Roboto Condensed";
     position: relative;
-    background-color: #000000;
+
   }
   #banner h3 {
     position: absolute;
@@ -95,13 +96,14 @@
     height: 273px;
     left: 590px;
     top: 460px;
+    background-color: black;
   }
   .text-2 {
     position: absolute;
     width: 399px;
     height: 176px;
     left: 90px;
-    top: 500px;
+    top: 520px;
   
     font-family: Roboto;
     font-style: normal;
@@ -280,7 +282,7 @@
     width: 218px;
     height: 32px;
     left: 90px;
-    top: 469px;
+    top: 490px;
     
     font-family: Roboto;
     font-style: normal;
