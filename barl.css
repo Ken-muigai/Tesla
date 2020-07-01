@@ -1,28 +1,31 @@
 *{
     margin: 0;
-    color:black;
+    background-color: black;
   }
   body {
     font: "Roboto Condensed";
     position: relative;
 
   }
-  #banner h3 {
+   h3 {
     position: absolute;
-    width: 190px;
-    height: 39px;
+    width: 450px;
+    height: 50px;
     left: 18px;
     top: 10px;
   
-    font-family: Roboto;
+    font-family: "Risque";
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 34px;
     line-height: 33px;
   
-    color: rgba(255, 142, 10, 0.94);
+    background: linear-gradient(to bottom, #FF6109 40.63%, #1143F2 0%);
+	 -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    fill:black;
   }
-  #banner h4 {
+   h4 {
     position: absolute;
     width: 220px;
     height: 33px;
@@ -45,7 +48,7 @@
     left: 0px;
     top: 90px;
   
-    background: #aebab8;
+    background-color:  #B7D4F8;
   }
   ul {
     list-style-type: none;
@@ -61,26 +64,30 @@
     font-size: 20px;
     line-height: 23px;
   }
-  ul li a {
+  ul,li,a {
     text-decoration: none;
-    color: #000000;
+    background-color:  #B7D4F8;
   }
-  ul li {
+  ul,li {
     padding: 0 3rem;
-    display: inline;
+    display: flex;
+    justify-content: space-between;
   }
+  nav,ul,li,a:hover{
+    color: goldenrod;
+}
   .image-1 {
     position: absolute;
     width: 396px;
     height: 283px;
-    left: 20px;
+    left: 220px;
     top: 188px;
   }
   .text-1 {
     position: absolute;
     width: 400px;
     height: 175px;
-    left: 530px;
+    left: 660px;
     top: 240px;
   
     font-family: Roboto;
@@ -94,7 +101,7 @@
   .image-2 {
     position: absolute;
     height: 273px;
-    left: 590px;
+    left: 660px;
     top: 460px;
     background-color: black;
   }
@@ -102,7 +109,7 @@
     position: absolute;
     width: 399px;
     height: 176px;
-    left: 90px;
+    left: 220px;
     top: 520px;
   
     font-family: Roboto;
@@ -139,13 +146,13 @@
     position: absolute;
     height: 290px;
     left: 550px;
-    top: 1150px;
+    top: 1080px;
   }
   .text-4 {
     position: absolute;
     width: 500px;
     height: 224px;
-    left: 20px;
+    left: 100px;
     top: 1150px;
   
     font-family: Roboto;
@@ -266,7 +273,7 @@
     position: absolute;
     width: 185px;
     height: 34px;
-    left: 567px;
+    left: 660px;
     top: 197px;
     
     font-family: Roboto;
@@ -281,7 +288,7 @@
     position: absolute;
     width: 218px;
     height: 32px;
-    left: 90px;
+    left: 220px;
     top: 490px;
     
     font-family: Roboto;
