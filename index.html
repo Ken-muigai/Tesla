@@ -5,6 +5,7 @@
         <title>Tesla</title>
         <link rel="stylesheet" rel="text/css" href="./index.css"/>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="container">
@@ -17,13 +18,13 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="./barl.html">UpcomingCars</a></li>
                     <li><a href="./abzed.html">ElectricCars</a></li>
-                    <li><a href="">About Us</a></li>
+                    <li><a href="./about.html">About Us</a></li>
                     <li><a href="">Login/Signup</a></li>
                 </ul>
             </nav>
-        </div>
-        <section class="about">
-            <div class="divone">
+    
+         <section class="about">
+            <div class="divone" data-aos="fade-up" data-aos-duration="3000">
                 <p>
                     The mind of a man, is dangerous most unto him. Its the key weapon 
                     he needs, to either destroy himself, or build himself up. Sadly,
@@ -32,12 +33,12 @@
                     full capabilities.
                 </p>
             </div>
-            <div class="imageone">
-                <img src="./joeimage/modelw.png" alt="this car aint here" width="400px" height="200px"/>
+            <div class="imageone" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <img src="./joeimage/modelw.png" alt="this car aint here" width="500px" height="250px"/>
             </div>
         </section>
         <section class="azin">
-            <div class="divtwo">
+            <div class="divtwo" data-aos="fade-right" data-aos-duration="3000">
                 <p>
                     The mind of a man, is dangerous most unto him. Its the key weapon 
                     he needs, to either destroy himself, or build himself up. Sadly,
@@ -46,48 +47,28 @@
                     full capabilities.
                 </p>
             </div>
-            <div class="imagetwo">
-                <img src="./joeimage/modelw.png" alt="this car aint here" width="400px" height="200px"/>
+            <div class="imagetwo" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./joeimage/modelY.png" alt="this car aint here" width="500px" height="250px"/>
             </div>
         </section>
-        <!-- <div class="carousel">
-            <div class="carousel-slide">
-                <img src="./images/bugatti-aerolithe.jpeg" alt="model" width="50px" class="test" height="50px"/>
-                <img src="./images/class.png" alt="model1" class="test" height="50px" width="50px"/>
-                <img src="./images/download.jpeg" alt="model2" class="test" width="50px" height="50px"/>
-                <img src="./images/tesla-model-y-red-3.jpg" alt="model3" class="test" width="50px" height="50px"/>
-                <img src="./images/nissangranTurismo.jpg" alt="model4" class="test" width="50px" height="50px"/>
-            </div>
-        </div> -->
-        <!-- <div class="imageone">
-            <h3 id="uno">Model X</h3>
-            <img src="./joeimage/modelX.png" width="200px" height="200px" id="model1"/>
-            <p>This here is a classic example of what the future model of a car should look like
-                The classic 540mph horsepower and the slick design gives this car an advantage over 
-                the regular SUV.
-            </p>
-        </div>
-        <section>
-            <div class="imagetwo">
-                <h3 id="dos">Model Y</h3>
-                <img src="./joeimage/modelY.png" width="200px" height="200px" id="model2"/>
-                <p>This here is a classic example of what the future model of a car should look like.
-                    The red color give the car an outrageous outlook and a classy feel.
-                    
-                </p>
-            </div>
-        </section> -->
+        </div> 
+        </section>
+
         <footer>
             <div class="contacts">
-                <p>Email:<a mailto="kenmuigai980@gmail.com">kenmuigai980@gmail.com</a></p>
-                <p>Tel:<a tel="kenmuigai980@gmail.com">0792213099</a></p>
-                <p>Website:<a href="http://kenjoel.github.io">kenjoel.github.io</a></p>
-            </div>
-            <div class="icons">
-
+                <p>Email: kenmuigai980@gmail.com</p>
+                <p>Tel: 0792121212</p>
+                <p>Fax: + 254 7828373672</p>
             </div>
         </footer>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <div class="icons" data-aos="fade-up" data-aos-duration="1500">
+            <ul>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+        </div>
+        <div class="copyright">&copy;copyright 2020. All rights reserved</div>
       <!-- <script> 
         startImageTransition(); 
         function startImageTransition() { 
@@ -142,8 +123,9 @@
             } 
         } 
     </script>  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-    </script>  
+</script>  
 </body>   
 </html> 
