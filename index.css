@@ -26,49 +26,51 @@ img{
 }
 
 #banner{
-    position: absolute;
+    position: fixed;
     margin: 0px;
     height: 100%;
     width: 100%;
     background-image: url('./joeimage/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8
 }
 
 nav{
     position: absolute;
-    right: 0px;
+    right: 300px;
+    top: 100px;
 }
 
 nav ul li a{
     text-decoration: none;
     color: aliceblue;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px darkcyan;
 }
 
 nav ul li{
     display: inline-block;
     font-size: 20px;
-    padding: 5px;
+    padding: 15px;
 }
 
 nav ul li a:hover{
     border-color: blanchedalmond;
 }
 
-.imageone{
+/* .imageone{
     height: 300px;
     width: 500px;
     position: absolute;
     top: 320px;
     overflow: hidden;
     border-radius: 80px;
-}
+} */
 
-.imageone p {
+/* .imageone p {
     position: absolute;
     left:200px;
-    top: 100px;
+    top: 60px;
     color: blanchedalmond;
 }
 
@@ -77,7 +79,7 @@ nav ul li a:hover{
     justify-content: space-between;
     padding: 2px;
     top: 21px;
-    border-radius:50px;
+    border-radius:20px;
 }
 
 #uno{
@@ -91,7 +93,7 @@ nav ul li a:hover{
 section{
     position: absolute;
     left:800px;
-    top: 345px;
+    top: 360px;
     justify-content: space-between;
 }
 
@@ -120,9 +122,20 @@ section{
     position: absolute;
     right: 80px;
     top: 40px;
-}
+} */
 
 footer{
     position: absolute;
     top:100%;
+}
+
+footer div p{
+    padding: 10px;
+}
+
+h1{
+    background: linear-gradient(to bottom, #FF6109 40.63%, #1143F2 0%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    fill:black;
 }
