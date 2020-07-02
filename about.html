@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT US</title>
-    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="about.css">
 </head>
 <body>
@@ -21,8 +22,8 @@
                 </ul>
             </nav>
         </div>
-        <h2>About El Classico Automobiles</h2>
-        <div class="text">
+        <h2 class="mzin" data-aos="fade-right">About El Classico Automobiles</h2>
+        <div class="text" data-aos="fade-up" data-aos-duration="3000">
             <p> Since the beginning, we have been driven by a purpose 
             and guided by the values we hold dear. Connecting people in ways 
             that are meaningful is an awesome responsibility, and we take it 
@@ -33,21 +34,20 @@
      <div class="staff">
                 <h3>STAFF</h3>
             </div>   
-     <div class="joel"> 
-         <img src="">
+     <div class="joel" data-aos="fade-right" data-aos-duration="3000"> 
          <p>Joel Muigai, Founder</p>
      </div>
-         <div class="barl">
+         <div class="barl" data-aos="fade-down" data-aos-duration="3000">
              <img src="">
              <p>Barlvine Mbari, Web Designer</p>
          </div>
-         <div class="abzed">
+         <div class="abzed" data-aos="fade-left" data-aos-duration="3000">
              <img src="">
              <p>Abzed Abdul, UI/UX Developer</p>
          </div>
        <div class="location">
-           <p>LOCATION
-           Ngong Lane Plaza
+           <h3>LOCATION</h3>
+           <p>Ngong Lane Plaza
            Ngong Lane
            Nairobi,Kenya</p>
 
@@ -55,9 +55,15 @@
        <div class="direction">
            <p>Get directions to El Classico Automobiles</p>
        </div>
-       <p id="Cont">CONTACT US</p>
-       <p id="que">Questions?</p>
-       <p id="email"><a href="https://gmail.com">You can send us an email.</a></p>
+       <div class="moreinfo" data-aos="fade-up" data-aos-duration="3000">
+           <h3 id="Cont">CONTACT US</h3 >
+           <p id="que">Questions?</p>
+           <p id="email"><a href="https://gmail.com">You can send us an email.</a></p>
+       </div>
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 
