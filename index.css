@@ -33,7 +33,7 @@ img{
     background-image: url('./joeimage/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8
+    opacity: 0.6;
 }
 
 nav{
@@ -56,6 +56,41 @@ nav ul li{
 
 nav ul li a:hover{
     border-color: blanchedalmond;
+}
+
+.about{
+    position: absolute;
+    top: 60%;
+}
+
+.divone{
+    position: relative;
+    text-align: center;
+    float: right;
+    right:  400px;
+    width: 40%;
+    padding:5px;
+    background: grey;
+    height: 200px;
+}
+
+.divone img{
+    border-radius: 5px;
+}
+
+.azin{
+    position: absolute;
+    top: 100%;
+    left: 600px;
+}
+.divtwo{
+    text-align: center;
+    float: left;
+    right:  400px;
+    width: 40%;
+    padding:5px;
+    background: grey;
+    height: 200px;
 }
 
 /* .imageone{
@@ -126,7 +161,7 @@ section{
 
 footer{
     position: absolute;
-    top:100%;
+    top:120%;
 }
 
 footer div p{
