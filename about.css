@@ -84,6 +84,9 @@ h2{
     border-radius: 50px;
 
 }
+.joel>p{
+    margin-top: 20px;
+}
 .barl{
     text-align: center;
     background-image: url('./joeimage/WhatsApp\ Image\ 2020-07-02\ at\ 10.54.03\ PM.jpeg');
@@ -130,7 +133,10 @@ h2{
     left: 510px;
 }
 
-
+h3{
+    
+    margin-top: -13px;
+}
 
 
 
